@@ -4,11 +4,29 @@ body {
     background-color: blanchedalmond;
 }
 
-.recipes a {
+.recipelinks {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding: auto;
+    width: auto;
+    text-decoration: none;
+}
+
+.recipelinks > .recipebuttons {
     background-color: blanchedalmond;
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    margin: 25px;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 h1 {
